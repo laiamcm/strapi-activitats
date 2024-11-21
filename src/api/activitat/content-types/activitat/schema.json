@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "activitats",
+  "info": {
+    "singularName": "activitat",
+    "pluralName": "activitats",
+    "displayName": "Activitat",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "descripcio": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "hores": {
+      "type": "decimal"
+    },
+    "ciutat": {
+      "type": "string"
+    },
+    "foto": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "professor": {
+      "type": "string"
+    }
+  }
+}

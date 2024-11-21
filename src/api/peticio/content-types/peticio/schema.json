@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "peticions",
+  "info": {
+    "singularName": "peticio",
+    "pluralName": "peticions",
+    "displayName": "Petició",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "cognom1": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "activitatNom": {
+      "type": "string"
+    },
+    "cognom2": {
+      "type": "string"
+    }
+  }
+}
